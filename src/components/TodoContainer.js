@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react"
 
 class TodoContainer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+
+  state = {
+    todos: []
+  };
+  
 
   render() {
     return (
@@ -15,4 +16,4 @@ class TodoContainer extends React.Component {
     );
   }
 }
-export default TodoContainer;
+export default TodoContainer
